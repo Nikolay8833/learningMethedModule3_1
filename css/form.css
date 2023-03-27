@@ -112,14 +112,6 @@
   text-align: start;
 }
 
-.form__input--submit-size::after {
-  content: "";
-  background: url(../img/arrow.png);
-  display: block;
-  width: 21px;
-  height: 15px;
-}
-
 .form__input--submit-size1 {
   width: 280px;
   height: 52px;
