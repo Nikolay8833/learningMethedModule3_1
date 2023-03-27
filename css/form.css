@@ -1,0 +1,148 @@
+.form {
+  background-color: #440F51;
+  padding: 80px 0 130px;
+}
+
+.form__address {
+  position: relative;
+}
+
+.form__fieldset {
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+  border: none;
+}
+
+.form__fieldset:last-child {
+  margin-bottom: 0;
+}
+
+.form__fieldset--flex {
+  justify-content: space-between;
+  border: none;
+}
+
+.form__fieldset--columm {
+  flex-direction: column;
+  justify-content: start;
+  margin-bottom: 0;
+}
+
+.form__fieldset--padding {
+  flex-wrap: wrap;
+  padding: 0 100px;
+}
+
+.form__fieldset--content {
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 35px 50px;
+  padding: 0 100px;
+}
+
+.form__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.form__title--left {
+  text-align: left;
+}
+
+.form__label {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 25px;
+}
+
+.form__label--margin {
+  margin-bottom: 20px;
+}
+
+.form__label:last-child {
+  margin-bottom: 0;
+}
+
+.form__label--title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.form__label--end {
+  align-self: end;
+}
+
+.form__label--end-margin {
+  margin-right: -18px;
+}
+
+.form__input--size {
+  width: 26px;
+  height: 26px;
+}
+
+.form__input--flex {
+  width: 250px;
+  height: 55px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.form__input--submit {
+  width: 300px;
+  height: 52px;
+}
+
+.form__input--submit-size {
+  width: 134px;
+  height: 52px;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 0 20px;
+  text-align: start;
+}
+
+.form__input--submit-size::after {
+  content: "";
+  background: url(../img/arrow.png);
+  display: block;
+  width: 21px;
+  height: 15px;
+}
+
+.form__input--submit-size1 {
+  width: 280px;
+  height: 52px;
+}
+
+.form__input--submit-size2 {
+  width: 300px;
+  height: 52px;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 0 20px;
+  text-align: start;
+}
+
+.button--form {
+  position: absolute;
+  right: 100px;
+  max-width: 300px;
+  height: 60px;
+  padding: 15px 50px;
+  color: #6C0287;
+  line-height: 28px;
+  background-color: #FFFFFF;
+  border: 3px solid #FFFFFF;
+  border-radius: 10px;
+}
