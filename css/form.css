@@ -89,6 +89,7 @@
   background-color: #FFFFFF;
   -webkit-appearance: none; 
   -moz-appearance: none;
+  appearance: none;
 }
 
 .form__input--flex:focus { 
